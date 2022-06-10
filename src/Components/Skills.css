@@ -1,7 +1,15 @@
-.forgrid {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    margin-left: 150px;
-    margin-top: 50px;
+.design li {
+    list-style: none;
+    font-size: larger;
 
+}
+
+.design ul {
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.title {
+    font-family: sans-serif;
 }

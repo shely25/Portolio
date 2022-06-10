@@ -4,6 +4,7 @@ import './App.css';
 import About from './Components/About';
 import Blogs from './Components/Blogs';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Projects from './Components/Projects';
@@ -11,7 +12,7 @@ import Skills from './Components/Skills';
 
 function App() {
   return (
-    <div>
+    <div className='background'>
 
       <Header></Header>
       <Routes>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <Footer></Footer>
 
     </div >
   );
